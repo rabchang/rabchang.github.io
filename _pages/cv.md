@@ -8,72 +8,50 @@ redirect_from:
 
 {% include base_path %}
 
-Download [CV](http://zejiang-unsw.github.io/files/CV_ZeJIANG.pdf)
+<!-- Download [CV](http://zejiang-unsw.github.io/files/CV_ZeJIANG.pdf) -->
 ======
 
 Education
 ======
-* B.Eng. in Environmental Engineering, Hohai University, Nanjing, China, 2012
-* M.Sc. in Hydro-Informatics and Water Management, Partnership of five European Universities, 2015
-* Ph.D. in Water Resources Engineering, University of New South Wales, Sydney, Australia, 2021
+* B.Eng. in Computer Science, Lanzhou University, 2016
+* Ph.D. student in Institute of Hign Energy Physics / University of Chineses Academy of Science
 
 Research Interests
 ======
-* Hydro-climatological modelling and forecasting (e.g. Wavelet System Prediction)
-* Postprocessing techniques for correcting bias in numerical weather predictions (e.g. Wavelet-based quantile mapping)
-* Climate change impact on the water cycle (e.g. floods and droughts)
-* Hydrology/Hydraulics and water quality modelling
-* Hydro-Informatics and water management
+* High Performance (TB/s) Computing Architecture
+* Memory Disaggregation
+* Fault Diagnosis
+* AI for Science, Computing for Science.
+* Web Technology
 
 Research Highlights
 ======
-* Development of [spectral transformation](https://doi.org/10.1029/2019WR026962) and its [application](https://doi.org/10.1016/j.jhydrol.2021.126816) in hydro-climatology
-* An [open-source tool](https://cran.r-project.org/web/packages/WASP/index.html) for improved system modelling: [Wavelet System Prediction (WASP)](https://doi.org/10.1016/j.envsoft.2020.104907)
-* Development of a [postprocessing method](https://doi.org/10.1175/MWR-D-22-0217.1) for correcting bias in Numerical Weather Predictions in the time-frequency domain
-* Quantification of future changes in [drought](https://doi.org/10.1029/2022EF003350) and [agricultural production](https://doi.org/10.1007/s00704-018-2617-z) under global warming
-* Development of [index-based drought insurance](https://doi.org/10.1108/AFR-02-2020-0020) for disaster risk transfer
+* Fault monitoring and diagnosis in large-scale distributed clusters: H. Zhang, M. Gu and S. Fan, "Fault Detection and Diagnosis Software of LHAASO," in IEEE Transactions on Nuclear Science, doi: 10.1109/TNS.2024.3454806.
+* Open-source large-scale collaboration member management system, with over 3000 users: [Link](https://github.com/rabchang/member-oa)
+* High-performance, efficient, and reliable distributed memory cache pool: in progress.
+
 
 Professional experience
 ======
-* Jun. 2021 - Current: Research Associate
-  * Water Research Centre, University of New South Wales, Sydney, Australia
-  * Duties included: 
-	+ The development of Wavelet System Prediction (WASP) for characterizing chaotic system
-    + Hydro-climatological forecasting using CMIP decadal and ACCESS seasonal forecasts
-    + Interannual rainfall forecasting with CMIP6 decadal projections over Australia
-    + Bias characterisation and correction in Numerical Weather Prediction (NWP) models
-  * Supervisors: Prof. [Ashish Sharma](https://scholar.google.com.au/citations?user=C_9ndbcAAAAJ&hl=en) and A/Prof. [Fiona Johnson](https://scholar.google.com.au/citations?user=PYu5v4YAAAAJ&hl=en)
+* 2021.5-2021.8 LHAASO Electronic Control System Development
 
-* Aug. 2023 - Current: Guest Scientist
-* May 2023 - Jul. 2023: Scientist
-  * Helmholtz-Centre Potsdam - German Research Centre (GFZ), Potsdam, Brandenburg, Germany
-  * Duties included: 
-	+ Climate-informed Flood Frequency Analysis under a changing climate
-  * Supervisor: Prof. Dr. [Bruno Merz](https://www.gfz-potsdam.de/en/staff/bruno.merz/sec44)
+Mainly responsible for JAVA Spring Cloud development, responsible for writing RESTful services to be provided to the front end.
 
-* Nov. 2015 - Feb. 2018: Research Assistant/Engineer
-  * Tropical Marine Science Institute, National University of Singapore, Singapore
-  * Duties included: 
-	+ DSSAT crop modeling of future rice yield in Vietnam under climate change, Singapore-MIT Alliance project.
-	+ Development of index-based drought insurance for sovereign disaster risk transfer, World Bank project. 
-	+ Impact of climate change on inland and coastal flooding in Singapore, Public Utilities Board (PUB) project.
-	+ Effectiveness of ABC Waters design features in residential developments, PUB-TMSI-Monash University project.
-  * Supervisor: Prof. [Shie-Yui Liong](https://scholar.google.com.au/citations?user=PvpaEVUAAAAJ&hl=en)
+* 2022.09-2023.04 Member Management System
 
-* Mar. 2015 - Sep. 2015: Intern
-  * Ingenieurgesellschaft Prof. Dr. Sieker mbH, Berlin, Germany
-  * Duties included:
-    + Development of the Time-Area function model based on QGIS environment for stormwater management.
-    + Flood modelling and mitigation of Hafar Al-Batin city in Saudi Arabia.   
-  * Supervisors: Prof. [Frank Molkenthin](https://www.b-tu.de/fg-hydrologie/team/mitarbeiter/apl-prof-frank-molkenthin) and Prof. [Heiko Sieker](https://www.sieker.de/aktuelles/news/heiko-sieker-honorarprofessor-an-der-tu-berlin-143.html?no_cache=1)
+Developed the member management system for the science experiment collaborations. The system uses NextJS for the front-end and SpringBoot for the back-end, and I am responsible for writing all the code for both the front-end and the back-end. Currently used in three large-scale international collaborations, with more than 3,000 users.
 
-Awards & honors
-======
-* 2023, Helmholtz Visiting Researcher Grant by Helmholtz Association of German Research Centers
-* 2021, Postdoctoral Writing Fellowship funded by UNSW
-* 2018, University International Postgraduate Award (UIPA) funded by UNSW
-* 2013, Erasmus Mundus Scholarship Award by European Union
-* 2010, National Undergraduate Mathematical Contest in Modeling (Provincial Award)
+* 2022.12-2023.12 Fault Monitoring and Diagnosis System
+
+Developed a fault detection and diagnosis system for large-scale scientific experiments. The system uses Python and provides users with a common monitoring tool, unified fault monitoring and DAG-based root cause analysis of faults. I am responsible for all aspects of the system. It has been used in LHAASO and achieved good results.
+
+* 2023.10-NOW Distributed Memory Buffer Pool
+
+Dedicated to improving the reliability and stability of large-scale online distributed data systems. Modified based on MinIO so that it can run on memory and manage distributed memory. Currently, it can manage a cluster of 50 computers with over 25TB of memory, achieving more than 10GB/s of mixed reads and writes, and running stably.
+
+* 2024.01-NOW  Application of Large Language Models to Online Systems for High Energy Physics
+
+Deploying and fine-tuning ChatGLM3-6B to explore the use of large langugage models to improve the user experience of high-energy physics online systems.
 
 Publications
 ======
@@ -87,40 +65,24 @@ Talks
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
   
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
 Languages
 ======
-Mandarin(Native), English(Fluent), German(Basic), French(Basic)
+Mandarin(Native), English(Fluent)
 
 Skills & Expertise 
 ======
-* Statistical hydrology and water resource engineering.
+* Programming Skills: C++, Java, Python, Go, JavaScript.
+* The abilities of a full-stack engineer have been fully exercised, with extremely strong system architecture skills.
 * Strong interpersonal skills with a good sense of teamwork. 
-* Programming Skills: R, C/C++, and Python in both Unix and Windows systems.
-* Rich experience in modeling and GIS, using MIKE, SWMM, DSSAT, and QGIS.
+
+Awards & honors
+======
+
 
 Service and leadership
 ======
-* Contribute to First Order Draft of IPCC 6th Assessment Report (FOD-WGII-AR6) as a group reviewer
-* Contribute to Second Order Draft of IPCC 6th Assessment Report (SOD-WGI-AR6) as a group reviewer
-* Topic Coordinator for a [Special Issue of Frontiers in Marine Science](https://www.frontiersin.org/research-topics/46827/toxicological-endpoints-and-bioavailability-of-emerging-contaminants-and-their-impacts-on-marine-nut)
-* Reviewer Editor: 
-  + Frontiers in Water (Sections: Water and Climate; Water and Hydrocomplexity)
-* Reviewer for Scholarly Journals: 
-  + Journal of Hydrology
-  + International Journal of River Basin Management 
-  + Weather and Climate Extremes; Journal of Applied Meteorology and Climatology
-  + Frontiers in Water; Water; Sustainability; International Journal of Environmental Research and Public Health
+
 
 Membership
 ======
-* American Geophysical Union (AGU)
-* European Geosciences Union (EGU) 
-* Asia Oceania Geosciences Society (AOGS)
-* International Commission of Statistical Hydrology (ICSH-IAHS)
-* Modeling and Simulation Society of Australia and New Zealand (MSSANZ)
+
