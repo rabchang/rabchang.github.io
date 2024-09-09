@@ -1,4 +1,4 @@
-# Ze Jiang
+# Hangchang Zhang
 This is Hangchang Zhang's personal [homepage](https://rabchang.github.io/).
 
 ## A short introduction
